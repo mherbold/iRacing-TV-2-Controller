@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "iRacingTV-2 Controller", "iRacingTV-2 Controller.csproj", "{C19F6DD7-CA60-4520-9A3B-D1F3AA72EE4D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DAB969D6-B460-42E3-96A1-91D359AA2ADE} = {DAB969D6-B460-42E3-96A1-91D359AA2ADE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IRSDKSharper", "..\IRSDKSharper\IRSDKSharper.csproj", "{DAB969D6-B460-42E3-96A1-91D359AA2ADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19F6DD7-CA60-4520-9A3B-D1F3AA72EE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19F6DD7-CA60-4520-9A3B-D1F3AA72EE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19F6DD7-CA60-4520-9A3B-D1F3AA72EE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19F6DD7-CA60-4520-9A3B-D1F3AA72EE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB969D6-B460-42E3-96A1-91D359AA2ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB969D6-B460-42E3-96A1-91D359AA2ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB969D6-B460-42E3-96A1-91D359AA2ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB969D6-B460-42E3-96A1-91D359AA2ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1F7AA32-AE0C-4FD6-AD8D-49C8EDD6E88C}
+	EndGlobalSection
+EndGlobal
